@@ -63,7 +63,9 @@
         'use strict';
 
         var theme = '';
-        var accent = '#ff4c4c';
+        // 加载页底色与编辑器顶栏的 TurboWarp GUI 蓝一致（#2196f3）。
+        // 原默认是 #ff4c4c 红，与改版后的蓝色界面不搭。
+        var accent = '#2196f3';
 
         try {
           var themeSetting = localStorage.getItem('tw:theme');
@@ -146,4 +148,4 @@
           splash.hidden = true;
           window.onerror = null;
         };
-      })();</script><div id="app"></div><script src="/js/pentapod/editor.03b6de4aa8aa152e86c7.js?6c9a6f205633905b5cd9"></script></body></html>
+      })();</script><div id="app"></div><script src="/js/pentapod/editor.f8ad07ae9f517a528eb5.js?a2206ced4cf34698cd39"></script></body></html>
